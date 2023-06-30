@@ -11,7 +11,7 @@ Toda a informação será guardada em memória sem a necessidade do uso de banco
 ## Estrutura de Dados
 A estrutura de dados utilizada neste teste é composta pelos seguintes campos:
 
-- `id` (string): Identificador único do post.
+- `id` (int): Identificador único do post.
 - `nome` (string): Nome do post.
 - `descricao` (string): Descrição do post.
 - `categoria` (string): Categoria do post.
@@ -47,13 +47,13 @@ GET /posts
 ```json
 [
   {
-    "id": "1",
+    "id": 1,
     "nome": "Post 1",
     "descricao": "Descrição do Post 1",
     "categoria": "Categoria 1"
   },
   {
-    "id": "2",
+    "id": 2,
     "nome": "Post 2",
     "descricao": "Descrição do Post 2",
     "categoria": "Categoria 2"
@@ -82,7 +82,7 @@ Content-Type: application/json
 
 ```json
 {
-  "id": "3",
+  "id": 3,
   "nome": "Novo Post",
   "descricao": "Descrição do Novo Post",
   "categoria": "Nova Categoria"
@@ -110,7 +110,7 @@ Content-Type: application/json
 
 ```json
 {
-  "id": "1",
+  "id": 1,
   "nome": "Post Atualizado",
   "descricao": "Descrição Atualizada",
   "categoria": "Categoria Atualizada"
