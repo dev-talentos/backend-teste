@@ -28,7 +28,7 @@ O servidor Express é configurado com as seguintes rotas e funcionalidades:
 
 As informações necessárias para cada rota são enviadas através do corpo da requisição, no formato JSON.
 
-## Exemplo de Uso
+## Uso
 
 A seguir, apresentamos um exemplo de como utilizar as rotas para realizar operações CRUD nos posts:
 
@@ -42,7 +42,7 @@ A seguir, apresentamos um exemplo de como utilizar as rotas para realizar opera�
 GET /posts
 ```
 
-**Exemplo de resposta**:
+**Resposta**:
 
 ```json
 [
@@ -65,7 +65,7 @@ GET /posts
 
 **Descrição**: Cria um novo post.
 
-**Exemplo de requisição**:
+**Requisição**:
 
 ```http
 POST /posts
@@ -78,7 +78,7 @@ Content-Type: application/json
 }
 ```
 
-**Exemplo de resposta**:
+**Resposta**:
 
 ```json
 {
@@ -93,7 +93,7 @@ Content-Type: application/json
 
 **Descrição**: Atualiza um post existente com base no seu ID.
 
-**Exemplo de requisição**:
+**Requisição**:
 
 ```http
 PUT /posts/1
@@ -106,7 +106,7 @@ Content-Type: application/json
 }
 ```
 
-**Exemplo de resposta**:
+**Resposta**:
 
 ```json
 {
@@ -120,5 +120,3 @@ Content-Type: application/json
 ### DELETE /posts/:id
 
 **Descrição**: Exclui um post existente com base no seu ID.
-
-**Exemplo de requisição
